@@ -1,0 +1,16 @@
+﻿  LogGenerator.cpp
+C:\Users\devjo\source\repos\LogFileAnalyzer\LogGenerator\LogGenerator.cpp(25,59): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\devjo\source\repos\LogFileAnalyzer\LogGenerator\LogGenerator.cpp(25,59): warning C4267:         with
+C:\Users\devjo\source\repos\LogFileAnalyzer\LogGenerator\LogGenerator.cpp(25,59): warning C4267:         [
+C:\Users\devjo\source\repos\LogFileAnalyzer\LogGenerator\LogGenerator.cpp(25,59): warning C4267:             _Ty=int
+C:\Users\devjo\source\repos\LogFileAnalyzer\LogGenerator\LogGenerator.cpp(25,59): warning C4267:         ]
+      C:\Users\devjo\source\repos\LogFileAnalyzer\LogGenerator\LogGenerator.cpp(25,59):
+      the template instantiation context (the oldest one first) is
+          C:\Users\devjo\source\repos\LogFileAnalyzer\LogGenerator\LogGenerator.cpp(64,26):
+          see reference to function template instantiation 'T getRandomElement<std::string>(const std::vector<std::string,std::allocator<std::string>> &,std::mt19937 &)' being compiled
+          with
+          [
+              T=std::string
+          ]
+  
+  LogGenerator.vcxproj -> C:\Users\devjo\source\repos\LogFileAnalyzer\LogFileAnalyzer\bin\x64\Debug\LogGenerator.exe
